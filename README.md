@@ -22,14 +22,16 @@ doesn’t matter.
 Before you can open new connections, you must customize ‘mu-worlds’.
 As soon as you have done that, use ‘mu-open’ to play.
 
-== Colors
+Colors
+======
 
 Use Ansi Color. Here’s how to install it in your ~/.emacs:
 
     (autoload 'mu-open "mu" "Play on MUSHes and MUDs" t)
     (add-hook 'mu-connection-mode-hook 'ansi-color-for-comint-mode-on)
 
-== Coding System
+Coding System
+=============
 
 Switch to the output buffer and use ‘M-x mu-dos’ if your host is
 sending you DOS line endings (ie. you have a ^M at the end of every
